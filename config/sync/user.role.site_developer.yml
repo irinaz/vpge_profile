@@ -69,7 +69,7 @@ dependencies:
     - seckit
     - shortcut
     - stanford_media
-    - stanford_profile
+    - vpge_profile
     - stanford_publication
     - system
     - taxonomy

@@ -1,8 +1,5 @@
-# [Stanford Profile](https://github.com/SU-SWS/stanford_profile)
+# [VPGE Profile](https://github.com/SU-SWS/vpge_profile)
 ##### 8.x
-[![CircleCI](https://circleci.com/gh/SU-SWS/stanford_profile.svg?style=svg)](https://circleci.com/gh/SU-SWS/stanford_profile)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/9e16872314a79186f4fe/test_coverage)](https://codeclimate.com/github/SU-SWS/stanford_profile/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/9e16872314a79186f4fe/maintainability)](https://codeclimate.com/github/SU-SWS/stanford_profile/maintainability)
 
 Maintainers: [Mike Decker](https://github.com/pookmish), [sherakama](https://github.com/sherakama)
 
@@ -32,7 +29,7 @@ Releases
 ---
 
 Steps to build a new release:
-- Checkout the latest commit from the `8.x-1.x` branch.
+- Checkout the latest commit from the `8.x-2.x` branch.
 - Create a new branch for the release.
 - Commit any necessary changes to the release branch.
   -  These may include, but are not necessarily limited to:
@@ -47,7 +44,7 @@ Steps to build a new release:
 Troubleshooting
 ---
 
-If you are experiencing issues with this try posting an issue on the [GitHub issues page](https://github.com/SU-SWS/stanford_profile/issues).
+If you are experiencing issues with this try posting an issue on the [GitHub issues page](https://github.com/SU-SWS/vpge_profile/issues).
 
 Contribution / Collaboration
 ---
