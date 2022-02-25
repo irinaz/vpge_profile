@@ -1,14 +1,12 @@
 # [VPGE Profile](https://github.com/SU-SWS/vpge_profile)
 ##### 8.x
 
-Maintainers: [Mike Decker](https://github.com/pookmish), [sherakama](https://github.com/sherakama)
-
 Changelog: [Changelog.md](CHANGELOG.md)
 
 Description
 ---
 
-This is the main installation profile for Stanford Web Services' self service platform and is used as a base for more.
+This is a fork main installation profile for VPGE platform.
 
 Accessibility
 ---
