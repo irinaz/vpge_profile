@@ -1,0 +1,52 @@
+uuid: e36a4070-52cc-49aa-8f40-0f9cdf9dd83a
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.stanford_events_importer
+    - field.field.config_pages.stanford_events_importer.su_event_xml_url
+    - field.field.config_pages.stanford_events_importer.su_localist_url
+  module:
+    - field_group
+    - stanford_events_importer
+    - stanford_fields
+third_party_settings:
+  field_group:
+    group_import_events:
+      children:
+        - su_localist_url
+        - su_event_xml_url
+      label: 'Import Events'
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: true
+        description: 'Use the following options to import events from https://events.stanford.edu/. Go to https://events.stanford.edu/ to browse the events that would be included in each of the options below. Events will be imported and updated daily or you can use the Save & Import button to execute an update immediately. '
+        required_fields: false
+id: config_pages.stanford_events_importer.default
+targetEntityType: config_pages
+bundle: stanford_events_importer
+mode: default
+content:
+  su_event_xml_url:
+    type: stanford_events_importer_apiurl_field_widget
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  su_localist_url:
+    type: localist_url
+    weight: 2
+    region: content
+    settings:
+      base_url: 'https://stanford.enterprise.localist.com'
+      placeholder_url: ''
+      placeholder_title: ''
+      select_distinct: false
+    third_party_settings: {  }
+hidden:
+  label: true

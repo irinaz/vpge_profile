@@ -1,0 +1,67 @@
+uuid: f709ac08-679e-4bd4-947f-e2bf337d5bd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.stanford_basic_site_settings
+    - field.field.config_pages.stanford_basic_site_settings.su_google_analytics
+    - field.field.config_pages.stanford_basic_site_settings.su_hide_site_search
+    - field.field.config_pages.stanford_basic_site_settings.su_site_dropdowns
+    - field.field.config_pages.stanford_basic_site_settings.su_site_email
+    - field.field.config_pages.stanford_basic_site_settings.su_site_name
+    - field.field.config_pages.stanford_basic_site_settings.su_site_url
+  module:
+    - link
+id: config_pages.stanford_basic_site_settings.default
+targetEntityType: config_pages
+bundle: stanford_basic_site_settings
+mode: default
+content:
+  su_google_analytics:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  su_hide_site_search:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  su_site_dropdowns:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  su_site_email:
+    type: email_default
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  su_site_name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  su_site_url:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  label: true
