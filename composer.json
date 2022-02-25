@@ -179,7 +179,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Drupal\\stanford_profile\\": "src/"
+            "Drupal\\vpge_profile\\": "src/"
         }
     },
     "extra": {

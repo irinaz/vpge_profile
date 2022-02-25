@@ -8,11 +8,11 @@ use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Class StanfordProfilePermissions.
+ * Class VpgeProfilePermissions.
  *
  * @package Drupal\vpge_profile
  */
-class StanfordProfilePermissions implements ContainerInjectionInterface {
+class VpgeProfilePermissions implements ContainerInjectionInterface {
 
   use StringTranslationTrait;
 
@@ -31,7 +31,7 @@ class StanfordProfilePermissions implements ContainerInjectionInterface {
   }
 
   /**
-   * StanfordProfilePermissions constructor.
+   * VpgeProfilePermissions constructor.
    *
    * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entity_manager
    *   Entity type manager service.

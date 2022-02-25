@@ -5,15 +5,15 @@ namespace Drupal\Tests\vpge_profile\Kernel;
 use Drupal\KernelTests\KernelTestBase;
 use Drupal\layout_builder\Entity\LayoutBuilderEntityViewDisplay;
 use Drupal\node\Entity\NodeType;
-use Drupal\vpge_profile\StanfordProfilePermissions;
+use Drupal\vpge_profile\VpgeProfilePermissions;
 
 /**
- * Class StanfordProfilePermissionsTest.
+ * Class VpgeProfilePermissionsTest.
  *
  * @group vpge_profile
- * @coversDefaultClass \Drupal\vpge_profile\StanfordProfilePermissions
+ * @coversDefaultClass \Drupal\vpge_profile\VpgeProfilePermissions
  */
-class StanfordProfilePermissionsTest extends KernelTestBase {
+class VpgeProfilePermissionsTest extends KernelTestBase {
 
   /**
    * {@inheritdoc}
@@ -57,7 +57,7 @@ class StanfordProfilePermissionsTest extends KernelTestBase {
    * Test permissions are returned.
    */
   public function testPermissions() {
-    $permission_class = StanfordProfilePermissions::create(\Drupal::getContainer());
+    $permission_class = VpgeProfilePermissions::create(\Drupal::getContainer());
     $permissions = $permission_class->permissions();
     $this->assertCount(1, $permissions);
     $this->assertArrayHasKey('choose layout for node article', $permissions);

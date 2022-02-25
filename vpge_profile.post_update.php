@@ -2,7 +2,7 @@
 
 /**
  * @file
- * stanford_profile.install
+ * vpge_profile.install
  */
 
 /**
