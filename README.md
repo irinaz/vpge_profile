@@ -23,6 +23,13 @@ Configuration
 
 Nothing special needed.
 
+Upstream updates
+---
+
+To pull in upstream updates, you can create a new branch and run `git pull https://github.com/SU-SWS/stanford_profile.git tags/8.x.x -X ours --no-edit`
+
+Replace the `tags/8.x.x` with the newest release tag.  See https://github.com/SU-SWS/stanford_profile for the latest release tag.
+
 Releases
 ---
 
