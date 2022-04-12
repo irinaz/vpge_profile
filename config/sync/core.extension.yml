@@ -67,7 +67,6 @@ module:
   file_mdm_exif: 0
   file_mdm_font: 0
   filter: 0
-  flat_taxonomy: 0
   focal_point: 0
   fontawesome: 0
   google_analytics: 0
@@ -132,7 +131,6 @@ module:
   redirect: 0
   response_code_condition: 0
   responsive_image: 0
-  responsive_tables_filter: 0
   rest: 0
   rh_node: 0
   rh_taxonomy: 0
@@ -210,7 +208,6 @@ module:
   menu_link_weight: 10
   stanford_profile_helper: 10
   paragraphs: 11
-  stanford_profile: 1000
   vpge_profile: 999
 theme:
   stable: 0

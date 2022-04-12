@@ -58,7 +58,6 @@ dependencies:
     - scheduler
     - shortcut
     - stanford_media
-    - vpge_profile
     - stanford_publication
     - system
     - taxonomy
@@ -67,6 +66,7 @@ dependencies:
     - view_unpublished
     - views_bulk_edit
     - views_ui
+    - vpge_profile
 id: site_builder
 label: 'Site Builder'
 weight: -1
