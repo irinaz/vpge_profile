@@ -54,6 +54,9 @@ module:
   entity_usage: 0
   environment_indicator: 0
   fakeobjects: 0
+  feeds: 0
+  feeds_ex: 0
+  feeds_tamper: 0
   field: 0
   field_encrypt: 0
   field_event_dispatcher: 0
@@ -169,6 +172,7 @@ module:
   stanford_text_editor: 0
   syslog: 0
   system: 0
+  tamper: 0
   taxonomy: 0
   taxonomy_menu: 0
   telephone: 0
@@ -215,4 +219,5 @@ theme:
   stanford_basic: 0
   stable9: 0
   minimally_branded_subtheme: 0
+  vpge: 0
 profile: vpge_profile

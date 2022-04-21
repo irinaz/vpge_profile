@@ -1,4 +1,4 @@
-uuid: d2936cc2-5c34-4777-920b-63f935c1abca
+uuid: 70c42264-7a4f-4fcd-90b3-7b51ec2a6f43
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,9 @@ dependencies:
     - config_pages
     - views
   theme:
-    - minimally_branded_subtheme
-id: minimally_branded_subtheme_search
-theme: minimally_branded_subtheme
+    - vpge
+id: vpge_search
+theme: vpge
 region: search
 weight: 0
 provider: null
