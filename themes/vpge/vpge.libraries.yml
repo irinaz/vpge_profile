@@ -4,6 +4,7 @@ vpge-styling:
     theme:
       dist/css/vpge.styles.css : {weight: 100}
   js:
+    https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js: {type: external, minified: true}
     dist/js/vpge.script.js : {
       scope: footer,
       attributes: { type: module }
