@@ -163,7 +163,7 @@ var webpackConfig = {
             }
           }
         ]
-      },
+      }
     ]
   },
   // Build optimizations.

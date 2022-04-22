@@ -27,5 +27,8 @@ components:
 ckeditor_stylesheets:
   - dist/css/ckeditor.css
 
+libraries:
+  - vpge/isotope
+
 libraries-override:
   jumpstart_ui/base: false
