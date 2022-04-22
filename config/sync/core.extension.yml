@@ -54,6 +54,9 @@ module:
   entity_usage: 0
   environment_indicator: 0
   fakeobjects: 0
+  feeds: 0
+  feeds_ex: 0
+  feeds_tamper: 0
   field: 0
   field_encrypt: 0
   field_event_dispatcher: 0
@@ -67,7 +70,6 @@ module:
   file_mdm_exif: 0
   file_mdm_font: 0
   filter: 0
-  flat_taxonomy: 0
   focal_point: 0
   fontawesome: 0
   google_analytics: 0
@@ -132,7 +134,6 @@ module:
   redirect: 0
   response_code_condition: 0
   responsive_image: 0
-  responsive_tables_filter: 0
   rest: 0
   rh_node: 0
   rh_taxonomy: 0
@@ -171,6 +172,7 @@ module:
   stanford_text_editor: 0
   syslog: 0
   system: 0
+  tamper: 0
   taxonomy: 0
   taxonomy_menu: 0
   telephone: 0
@@ -210,7 +212,6 @@ module:
   menu_link_weight: 10
   stanford_profile_helper: 10
   paragraphs: 11
-  stanford_profile: 1000
   vpge_profile: 999
 theme:
   stable: 0
@@ -218,4 +219,5 @@ theme:
   stanford_basic: 0
   stable9: 0
   minimally_branded_subtheme: 0
+  vpge: 0
 profile: vpge_profile

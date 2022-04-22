@@ -1,4 +1,4 @@
-uuid: 76d9ed93-ef84-4607-972b-53724eaf8506
+uuid: 68f82385-afe2-4adf-acd6-324f554d4f97
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,9 @@ dependencies:
     - response_code_condition
     - system
   theme:
-    - minimally_branded_subtheme
-id: minimally_branded_subtheme_pagetitle
-theme: minimally_branded_subtheme
+    - vpge
+id: vpge_pagetitle
+theme: vpge
 region: content
 weight: -4
 provider: null

@@ -10,3 +10,15 @@ vpge-styling:
     }
   dependencies:
     - core/jquery
+isotope:
+  remote: http://isotope.metafizzy.co
+  version: 3.0.5
+  license:
+    name: GPL3
+    url: https://www.gnu.org/licenses/gpl-3.0.html
+    gpl-compatible: true
+  js:
+    //unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js: {
+      type: external,
+      minified: true
+    }
