@@ -6,7 +6,7 @@ Changelog: [Changelog.md](CHANGELOG.md)
 Description
 ---
 
-This is a fork main installation profile for VPGE platform.
+This is a fork main installation profile for VPGE platform, including VPGE and Diversityworks
 
 Accessibility
 ---
